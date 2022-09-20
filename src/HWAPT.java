@@ -38,13 +38,12 @@ public class HWAPT {
             System.out.println();
             System.out.println("Массивы ч.2. Задание 4.");
             char[] reverceFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-            for (int i = reverceFullName.length - 1; i < reverceFullName.length; i--) {
-                if (i == 0) {
-                    System.out.println(reverceFullName[i]);
-                    break;
+            for (int i = reverceFullName.length - 1; i >=0; i--)
+                {
+                    System.out.print(reverceFullName[i]);
                 }
-                System.out.print(reverceFullName[i]);
-            }
+
+
         }
     public static int[] generateRandomArray() {
         java.util.Random random = new java.util.Random();
